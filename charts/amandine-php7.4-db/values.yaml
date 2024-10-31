@@ -1,0 +1,11 @@
+NameSpace: koden-clients
+AppName: cdrs35-db
+NodePort: 32153
+
+MariadbReplicas: 1
+MariadbImageTag: latest
+MariadbDiskSize: 5Gi
+MariadbServerId: 2
+MariadbDbName: cdrs35
+MariadbDbUser: cdrs35
+MariadbDbPort: 3306

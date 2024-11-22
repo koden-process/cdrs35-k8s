@@ -3,3 +3,5 @@ AppName: cdrs35-app
 
 HostName: cdrs35.fr
 DiskSize: 10Gi
+
+DockerImage: killiankopp/amandine-7.4:241122

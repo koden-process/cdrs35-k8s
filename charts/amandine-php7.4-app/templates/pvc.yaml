@@ -9,4 +9,3 @@ spec:
   resources:
     requests:
       storage: {{ .Values.DiskSize }}
-  storageClassName: {{ .Values.StorageClassName | default "csi-cinder-high-speed" }}
